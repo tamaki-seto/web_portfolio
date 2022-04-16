@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 1424px;
+    font-family: 'Kiwi Maru', serif;
+}
+
+.back {
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 2;
+    background-image: url(/Users/tomoka/Desktop/WEB_Portfolio/Hairsalon/images/bg_scroll04.jpg);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.header img {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border-radius: 40px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    width: 120px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+li a {
+    background: rgb(164, 126, 30);
+    border-radius: 15px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Kiwi Maru', serif;
+    transition: 1.5s;
+}
+
+li a:hover {
+    font-size: 28px;
+    transition: 1.5s;
+}
+
+#about, #style, #menu, #reserve, #access {
+    color: rgb(167, 68, 25);
+}
+
+.mv img {
+    width: 1280px;
+    height: 650px;
+    object-fit: cover;
+}
+
+h2 {
+    font-size: 120px;
+    padding: 0px 0;
+    color: white;
+}
+
+.subtitle {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.text1 {
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    line-height: 2;
+    padding-bottom: 50px;
+}
+
+.staff {
+    display: inline-block;
+}
+
+.staff-img1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+h3 {
+    font-size: 50px;
+    padding: 10px 0;
+    color: white;
+}
+
+.staff-img1 img {
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.staff-text {
+    line-height: 1.5;
+    text-align: left;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.text-box {
+    display: inline-block;
+    text-align: left;
+    margin: 30px;
+    color: white;
+}
+
+.text2 {
+    line-height: 2;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+}
+
+.style {
+    margin-bottom: 50px;
+}
+
+.style img {
+    width: 200px;
+    height: 230px;
+    padding: 3px;
+    object-fit: cover;
+}
+
+h4 {
+    font-size: 30px;
+    color: rgb(255, 255, 255)
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 1000px;
+}
+
+.menu img {
+    width: 50px;
+    height: 50px;
+}
+
+.cut, .color, .perm, .straighting, .other {
+    text-align: left;
+    margin: 20px auto;
+    line-height: 2;
+    color: rgb(255, 255, 255);
+    border-radius: ;
+}
+
+.menu img {
+    width: 50px;
+    height: 50px;
+}
+
+h5 a {
+    line-height: 3;
+    text-align: center;
+    background: rgb(164, 126, 30);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.card {
+    margin: 50px auto;
+}
+
+.card i {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.792);
+    background: rgb(167, 68, 25);
+    text-shadow: 7px 6px 4px rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 5px;
+
+}
+
+.reserve {
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+
+}
+
+.hotpepper a {
+    line-height: 5;
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background: rgb(164, 126, 30);
+    width: 100px;
+    transition: 1.3s;
+}
+
+.hotpepper a:hover {
+    width: 500px;
+    margin: 20px auto;
+    color: white;
+    text-shadow: 7px 6px 3px rgb(67, 65, 65);
+    transition: 1.3s;
+}
+
+.map {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.footer {
+    font-family: Noto Sans JP;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    margin: 0 auto;
+    padding: 10px;
+    width: 200px;
+    background: white;
+}
+
+#page_top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    opacity: 0.6;
+    background:rgb(244, 188, 45);
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+@media(max-width:750px){
+    #page_top {
+        width: 40px;
+        height: 40px;
+        text-indent: -9999px;
+        opacity: 1;
+        border: none;
+        background: none;
+        bottom: 10px;
+        right: 10px;
+        text-align: right;
+    }
+    #page_top::before{
+        bottom: 0;
+    }
+}
