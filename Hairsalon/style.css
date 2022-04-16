@@ -64,7 +64,7 @@ ul li {
 }
 
 li a {
-    background: rgb(164, 126, 30);
+    background: rgb(141, 80, 37);
     border-radius: 15px;
     padding: 10px;
     line-height: 3;
@@ -88,6 +88,11 @@ li a:hover {
     width: 1280px;
     height: 650px;
     object-fit: cover;
+}
+
+
+.about, .concept {
+    margin: 50px 0;
 }
 
 h2 {
@@ -197,7 +202,7 @@ h4 {
 h5 a {
     line-height: 3;
     text-align: center;
-    background: rgb(164, 126, 30);
+    background: rgb(141, 80, 37);
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
@@ -212,7 +217,7 @@ h5 a {
 .card i {
     font-size: 40px;
     color: rgba(255, 255, 255, 0.792);
-    background: rgb(167, 68, 25);
+    background: rgb(141, 80, 37);
     text-shadow: 7px 6px 4px rgb(0, 0, 0);
     margin-top: 10px;
     padding: 5px;
@@ -233,7 +238,7 @@ h5 a {
     text-decoration: none;
     color: white;
     border-radius: 10px;
-    background: rgb(164, 126, 30);
+    background: rgb(141, 80, 37);
     width: 100px;
     transition: 1.3s;
 }
