@@ -36,7 +36,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     z-index: 2;
-    background-image: url(/Users/tomoka/Desktop/WEB_PortFolio/Hairsalon/images/bg_scroll04.jpg);
+    background-image: url(images/bg_scroll04.jpg);
 }
 
 .header {
