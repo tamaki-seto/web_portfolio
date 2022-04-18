@@ -179,7 +179,9 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     margin: 50px auto;
+    padding: 20px 0;
     width: 1000px;
+    background: white;
 }
 
 .menu img {
@@ -190,8 +192,7 @@ h4 {
 .cut, .color, .perm, .straighting, .other {
     text-align: left;
     margin: 0px auto;
-    line-height: 2;
-    color: rgb(255, 255, 255);
+    line-height: 3;
     border-radius: ;
 }
 
